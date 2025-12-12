@@ -15,6 +15,25 @@ Each task includes code, sample data or instructions to create sample data, and 
 ## Repo structure
 (see same tree as in the top-level README in the project root)
 
+codtech-internship/
+├─ README.md
+├─ requirements.txt
+├─ LICENSE
+├─ data/
+│  ├─ sample_tabular.csv
+│  └─ images/                # sample images / subfolders train/val
+├─ notebooks/
+│  └─ task4_optimization_pulp.ipynb
+├─ src/
+│  ├─ task1_data_pipeline.py
+│  ├─ task2_dl_image_classification.py
+│  ├─ task3_end_to_end_api.py
+│  └─ utils.py
+├─ models/
+│  └─ saved_model.pth
+└─ .gitignore
+
+
 ## Setup
 1. Create virtual env:
 ```bash
