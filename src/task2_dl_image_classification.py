@@ -92,6 +92,10 @@ def train(epochs=3):
     plt.savefig(os.path.join(model_dir, 'acc_plot.png'))
     print("Training complete. Model and plots saved to models/")
 
+
+
+
+
 if __name__ == "__main__":
     if not os.path.exists(os.path.join(data_dir, 'train')):
         print("Create sample images under data/images/train/<class> and data/images/val/<class>")

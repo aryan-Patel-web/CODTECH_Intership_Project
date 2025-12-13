@@ -34,6 +34,8 @@ codtech-internship/
 └─ .gitignore
 
 
+
+
 ## Setup
 1. Create virtual env:
 ```bash
